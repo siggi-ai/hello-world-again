@@ -1,12 +1,14 @@
 <template>
 
-  <body class="bg-indigo-300 h-screen font-mono">
+  <body class="bg-gradient-to-r from-fuchsia-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-screen font-mono">
+
 
 <!-- header -->
     <header class="text-center">
       <br />
       <br />
       <div class="flex flex-row text-5xl font-bold font-mono text-violet-800">
+        <img class="ml-20 w-20" src="..\assets\images\IBM_PC.png">
         <h1 class="basis-1/2">Hello World</h1>
         <h1 class="motion-duration-1000 motion-scale-loop-95">❤️</h1>
       </div>
@@ -79,7 +81,10 @@
         </p>
       </div>
 <!-- JavaScript-Article-end -->
+
     </main>
+
+
 <!-- main-end -->
   </body>
 </template>

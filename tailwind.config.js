@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'eighties': "url('/assets/images/80sBG.jpg')",
+      }
+    },
   },
   plugins: [require('tailwindcss-motion')],
 }
